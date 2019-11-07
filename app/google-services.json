@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "117061321977",
+    "firebase_url": "https://class-test-5f37e.firebaseio.com",
+    "project_id": "class-test-5f37e",
+    "storage_bucket": "class-test-5f37e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117061321977:android:3f32cc14ab9d3114204e28",
+        "android_client_info": {
+          "package_name": "com.ags.wallettest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117061321977-4aj5k1m4m5ipbosk36dco5ub0dceh0mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ags.wallettest",
+            "certificate_hash": "56f98a45ec40c1e73ec5797cef31de24e72c8dd0"
+          }
+        },
+        {
+          "client_id": "117061321977-cqrg4iaen36i201krjiccokvco9oaolq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAETabBx4pUJuDYDNHKjDAXn3zNLlYXI5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117061321977-cqrg4iaen36i201krjiccokvco9oaolq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/length_200"
+        android:layout_height="@dimen/length_200"
+        android:contentDescription="@string/none"
+        android:src="@drawable/ic_android"
+        android:tint="@color/white" />
+
+    <EditText
+        android:id="@+id/edtRegistrationUserName"
+        style="@style/textFieldStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_40"
+        android:layout_marginTop="@dimen/length_20"
+        android:autofillHints="@string/email"
+        android:hint="@string/userName"
+        android:inputType="textEmailAddress"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/edtRegistrationEmail"
+        style="@style/textFieldStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_40"
+        android:layout_marginTop="@dimen/length_10"
+        android:hint="@string/email"
+        android:autofillHints="@string/email"
+        tools:targetApi="o"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edtRegistrationPassword"
+        style="@style/textFieldStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_40"
+        android:layout_marginTop="@dimen/length_10"
+        android:hint="@string/password"
+        android:autofillHints="@string/email"
+        tools:targetApi="o"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/edtRegistrationConfirmPassword"
+        style="@style/textFieldStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_40"
+        android:layout_marginTop="@dimen/length_10"
+        android:hint="@string/confirm_password"
+        android:autofillHints="@string/email"
+        tools:targetApi="o"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/length_20"
+        style="@style/buttonStyle"
+        android:onClick="regButtonClick"
+        android:text="@string/signup"
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/length_10"
+        style="@style/buttonStyle"
+        android:onClick="signButtonClick"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
